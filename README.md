@@ -14,7 +14,7 @@ The DynamicStyle project has two functions.
 Maybe you have two basic states for your phone project.  Landscape and Portrait (apparently this is old terminology and we should be saying Wide and Tall)
 Or maybe you have 5 different states.  XWide, Wide, Default, Tall, Skinny
 
-**But**, in XWide Visual State you want to increase the font weight to be X, for Tall Visual State you want the font size to decrease.  When you have lots of controls on a screen with different visual states, the awesomeness of Visual States is broken because you have to change the properties for all of the controls for each of the states.  It also breaks control style because you have the values scattered between Style definitions and Visual States
+**But**, in XWide Visual State you want to increase the font weight to be X, for Tall Visual State you want the font size to decrease.  When you have lots of controls on a screen and a couple of Visual States, the awesomeness of Visual States is broken because you have to change the properties for all of the controls for each of the states.  It also breaks control style because you have the property values scattered between Style definitions and Visual States
 
 
 ## Defining Control Styles ##
