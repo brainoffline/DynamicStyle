@@ -15,7 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicStyle", "DynamicStyl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0A45BD3-8E60-4D11-96CE-2A2FE02F74EE}"
 	ProjectSection(SolutionItems) = preProject
+		NuGetPackage\BuildNuGet.bat = NuGetPackage\BuildNuGet.bat
+		NuGetPackage\Package.nuspec = NuGetPackage\Package.nuspec
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BFC9BEBF-6F3B-4533-BB2B-6B31A22B2CD3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Global

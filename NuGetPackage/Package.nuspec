@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DynamicStyle</id>
+        <version>1.0.0.40</version>
+        <authors>Brian Donovan-Smith</authors>
+        <owners>Brian Donovan-Smith</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Responsive layout for Universal Apps</description>
+        <releaseNotes>Release Candidate</releaseNotes>
+        <copyright>Copyright 2014</copyright>
+        <tags>Responsive XAML</tags>
+    </metadata>
+    <files>
+      <file src="DynamicStyle.dll" target="lib\portable-win8+wpa81\DynamicStyle.dll" />
+    </files>
+</package>
